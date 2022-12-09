@@ -1,0 +1,61 @@
+insert into intensity (value)
+values ('1'),
+       ('2'),
+       ('3');
+
+insert into muscle_groups (name)
+values ('chest'),
+       ('back'),
+       ('quads'),
+       ('hips'),
+       ('biceps'),
+       ('triceps'),
+       ('glutes');
+
+insert into exercises (name, intensity_id)
+values ('Bench press, incline (dumbbells)', '2'),
+       ('Bench press (dumbbells)', '2'),
+       ('Flys (Machine)', '1'),
+       ('Dips', '2'),
+       ('Bench press', '3'),
+       ('Bent Over Row (barbell)', '3'),
+       ('T-bar row', '2'),
+       ('Lat Pulldown (machine)', '2'),
+       ('Seated Cable Row', '2'),
+       ('Seated Row', '2'),
+       ('Bent Over Row (Long bar)', '3'),
+       ('Squats (barbell)', '3'),
+       ('Leg Press - Lying (Machine)', '2'),
+       ('Leg Extensions', '1'),
+       ('Leg Curls', '1');
+
+insert into exercise_to_muscle (exercise_id, muscle_id)
+values (1, 1),
+       (1, 6),
+       (2, 1),
+       (2, 6),
+       (3, 1),
+       (4, 1),
+       (4, 6),
+       (5, 1),
+       (5, 6),
+       (6, 2),
+       (6, 5),
+       (7, 2),
+       (7, 5),
+       (8, 2),
+       (8, 5),
+       (9, 2),
+       (9, 5),
+       (10, 2),
+       (10, 5),
+       (11, 2),
+       (11, 5),
+       (12, 3),
+       (12, 4),
+       (12, 7),
+       (13, 3),
+       (13, 4),
+       (13, 7),
+       (14, 3),
+       (15, 4);

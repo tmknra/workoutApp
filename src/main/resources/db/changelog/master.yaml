@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: tumaikin.roman
+      changes:
+        - sqlFile:
+            path: db\changelog\change_sets\create_tables.sql
+  - changeSet:
+      id: 2
+      author: tumaikin.roman
+      changes:
+        - sqlFile:
+            path: db\changelog\change_sets\add_initial_data.sql
