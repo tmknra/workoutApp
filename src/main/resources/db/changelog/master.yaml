@@ -11,3 +11,9 @@ databaseChangeLog:
       changes:
         - sqlFile:
             path: db\changelog\change_sets\add_initial_data.sql
+  - changeSet:
+      id: 3
+      author: tumaikin.roman
+      changes:
+        - sqlFile:
+            path: db\changelog\change_sets\add_exercises.sql
